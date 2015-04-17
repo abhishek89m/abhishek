@@ -1,5 +1,4 @@
-# abhishek
-Personal GIT
+# SidePanel
 
 This is my first simple responsive webapp that heavily relies on jQuery.
 This app has a dummy JSON array with a simple {key: value} structure.
