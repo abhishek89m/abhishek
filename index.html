@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/logic.js"></script>
+  </head>
+  <body>
+    <div class="left-header no-highlight">
+      <span class="icon-search"></span>
+      <div class="search-field" contenteditable="true"></div>
+      <span class="icon-add"></span>
+    </div>
+    <div class="left-content no-highlight"></div>
+    <div class="main-content">
+      <div class="info">
+        <h1>Key</h1>
+        <div class="info__key" contenteditable="true"></div>
+      </div>
+      <div class="info">
+        <h1>Value</h1>
+        <div class="info__value" contenteditable="false"></div>
+      </div>
+      <div class="info">
+        <input type="button" class="info-button info-button--save no-highlight" value="SAVE" disabled>
+        <input type="button" class="info-button info-button--reset no-highlight" value="RESET" disabled>
+      </div>
+    </div>
+    <span class="icon-menu no-highlight"></span>
+    <div class="loading-screen"></div>
+    <div class="error-screen"></div>
+    <span class="mobile"></span>
+  </body>
+</html>
